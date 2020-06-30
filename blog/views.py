@@ -48,12 +48,13 @@ def export_xls(request):
     excelfile = BytesIO()
     wb.save(excelfile)
 
-    email = EmailMessage()
+   """ email = EmailMessage()
     email.subject = 'Test subject'
     email.body = 'Testing email attachments in django'
     email.from_email = settings.EMAIL_HOST_USER
     email.to = ['gsrivas3@cisco.com']
     email.attach('blogs.xls', excelfile.getvalue(), 'application/ms-excel')
     email.send()
+    """
 
     return response
