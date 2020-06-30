@@ -131,10 +131,3 @@ except ImportError:
     print("No local file. ")
 
 
-#Email settings
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'grvcisco'
-EMAIL_HOST_PASSWORD = 'Gaurav@123'
-EMAIL_PORT = 587
