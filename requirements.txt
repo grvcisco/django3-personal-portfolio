@@ -9,7 +9,7 @@ idna==2.9
 jenkins==1.0.2
 ngrok==0.0.1
 Pillow==7.1.2
-pipenv==2018.11.26
+pipenv==2022.1.8
 pytz==2020.1
 requests==2.23.0
 six==1.14.0
